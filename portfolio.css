@@ -116,6 +116,7 @@
      padding: 0;
      margin: 0;
      background-color: #0b011d;
+     color: white;
 }
 .headerContainer{
       display: flex;
@@ -133,6 +134,7 @@
 ul{
       display: flex;
       justify-content: space-evenly;
+      list-style: none;
 }
 .headerContainer li {
       margin: 20px;
@@ -145,6 +147,20 @@ ul{
 }
 a:active {
       background-color: #8D00EB;
-      padding: 10px;
-      
+      padding: 10px;   
+}
+
+.backgroundTExt{
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20rem;
+  top:18rem;
+  z-index: -1;
+  opacity: 0.2;
+  text-align: center;
 }
