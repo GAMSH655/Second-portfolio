@@ -141,13 +141,13 @@ ul{
 .headerContainer li {
       margin: 20px;
 }
-.headerContainer a {
+.headerContainer .headerLink {
        text-decoration: none;
        color: white;
        text-transform: capitalize;
        font-size: x-large;
 }
-a:active {
+.headerLink:active {
       background-color: #8D00EB;
       padding: 10px;
 }
