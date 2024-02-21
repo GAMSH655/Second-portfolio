@@ -153,7 +153,7 @@ a:active {
 }
 
 .backgroundTExt{
-  font-size: 8rem;
+  font-size: 4rem;
   text-transform: uppercase;
   font-weight: bolder;
   display: flex;
@@ -171,16 +171,15 @@ a:active {
   position: relative;
   margin: 40px;
 
-  animation-name: slideText;
+   animation-name: slideText;
   animation-duration: 5s;
   /* animation-iteration-count: infinite; */
   animation-direction: alternate;
 }
-@keyframes  slideText {
-  0%{transform: translateX(-450px);}
-  /* 50%{transform: translateX(50px);} */
-}
 
+@keyframes  slideText {
+  0%{transform: translateX(-450px);} 
+}
 .span1{
   display: block;
   font-size: 3rem;
@@ -197,17 +196,42 @@ img{
   top: 50px;
   right: 30px;
   
-  animation-name: slideImg;
+   animation-name: slideImg; 
   animation-duration: 5s;
   /* animation-iteration-count: infinite; */
   animation-direction: alternate;
 }
+
 @keyframes  slideImg {
-  /* 0%{transform: translateX(-30px);} */
+   0%{transform: translateX(-30px);} 
   0%{transform: translateX(450px);}
-}
+} 
 
 .flex{
   display: flex;
   justify-content: space-evenly;
+}
+.cvBtn{
+   width: 180px;
+   padding: 10px;
+   background-color: #8121D0;
+   border: none;
+   outline: none;
+   margin-top: 20px;
+   font-size: 1rem;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+   border-radius: 15px;
+
+   animation-name: pulseBtn;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+@keyframes pulseBtn {
+  0% {transform: translateY(40);}
+  40% {transform: translateY(-10px);}
+  60% {transform: translateY(-70);}
+}
+.cvLink{
+   background-color: red;
 }
