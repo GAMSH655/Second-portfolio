@@ -173,7 +173,6 @@ ul{
 
    animation-name: slideText;
   animation-duration: 5s;
-  /* animation-iteration-count: infinite; */
   animation-direction: alternate;
 }
 
@@ -212,7 +211,7 @@ img{
   justify-content: space-evenly;
 }
 .cvBtn{
-   width: 180px;
+   width: 200px;
    padding: 10px;
    background-color: #8121D0;
    border: none;
@@ -222,6 +221,7 @@ img{
    text-transform: capitalize;
    letter-spacing: 3px;
    border-radius: 15px;
+   
 
    animation-name: pulseBtn;
    animation-duration: 2s;
@@ -233,5 +233,35 @@ img{
   60% {transform: translateY(-70);}
 }
 .cvLink{
-   background-color: red;
+  text-decoration: none;
+}
+.footer{
+    background-color: #1d09427a;
+   display: flex;
+   justify-content: space-around;
+   padding: 50px;
+   margin-top: 50px;
+}
+.footerText1{
+  font-size: large;
+  font-size: 30px;
+  background: -webkit-linear-gradient(  #eee, #390085);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+}
+.contP{
+   text-align: center;
+   font-size: large;
+  font-size: 30px;
+}
+  #footerLink{
+  display: block;
+  margin: 30px;
+  text-decoration: none;
+  font-size: x-large;
+  text-transform: capitalize;
+}
+.contact{
+   pad
 }
